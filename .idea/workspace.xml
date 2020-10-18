@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="24799791-b24e-488b-bdcd-95c362623dd3" name="Default Changelist" comment="" />
+    <list default="true" id="24799791-b24e-488b-bdcd-95c362623dd3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ProjectController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ProjectNoteController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Services/ProjectNoteService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Services/ProjectService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Validators/ProjectNoteValidator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Validators/ProjectValidator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/ProjectNoteTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/ProjectTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/UserTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/22629b07-abb4-41ff-bffb-1ed3bd2ff545.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/22629b07-abb4-41ff-bffb-1ed3bd2ff545.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/CodeProjectRepositoryProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/CodeProjectRepositoryProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/ModelFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/ModelFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/ClientTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/ClientTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +45,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -81,15 +119,19 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1iThgaEA8EK5vq3gR95vWCyFVGf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Http/Controllers" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -102,6 +144,12 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/Models" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Http/Controllers" />
+      <recent name="$PROJECT_DIR$/app/Services" />
+      <recent name="$PROJECT_DIR$/app/Validators" />
+      <recent name="$PROJECT_DIR$/database/seeds" />
     </key>
   </component>
   <component name="RunManager" selected="PHPSpec.phpspec.yml">
@@ -124,11 +172,24 @@
       <updated>1601937600888</updated>
       <workItem from="1601937602268" duration="4289000" />
       <workItem from="1602006674265" duration="5228000" />
+      <workItem from="1603030946498" duration="5743000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="640" y="127" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601938272098">
@@ -139,14 +200,14 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="859" y="381" key="ComposerInitDialogKey/0.23.1440.877@0.23.1440.877" timestamp="1602011949173" />
-    <state x="730" y="194" key="NewPhpClassDialog" timestamp="1602012108755">
+    <state x="730" y="194" key="NewPhpClassDialog" timestamp="1602099195761">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="730" y="194" key="NewPhpClassDialog/0.23.1440.877@0.23.1440.877" timestamp="1602012108755" />
-    <state x="975" y="356" width="323" height="232" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1601939361695">
+    <state x="730" y="194" key="NewPhpClassDialog/0.23.1440.877@0.23.1440.877" timestamp="1602099195761" />
+    <state x="975" y="356" width="323" height="232" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1602098235709">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="975" y="356" width="323" height="232" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.23.1440.877@0.23.1440.877" timestamp="1601939361695" />
+    <state x="975" y="356" width="323" height="232" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.23.1440.877@0.23.1440.877" timestamp="1602098235709" />
     <state x="930" y="242" width="467" height="439" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1601939324403">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
