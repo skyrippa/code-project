@@ -20,22 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24799791-b24e-488b-bdcd-95c362623dd3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Entities/ProjectMember.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/OAuth/Verifier.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Presenters/ProjectPresenter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Transformers/ProjectMemberTransformer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Transformers/ProjectTransformer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/codeproject-curso.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeproject-curso.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Entities/Project.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Entities/Project.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Entities/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Entities/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProjectController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProjectController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/routes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Repositories/ProjectRepositoryEloquent.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/ProjectRepositoryEloquent.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/UserTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/UserTableSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,6 +112,7 @@
       <path value="$PROJECT_DIR$/vendor/league/oauth2-server" />
       <path value="$PROJECT_DIR$/vendor/league/event" />
       <path value="$PROJECT_DIR$/vendor/lucadegasperi/oauth2-server-laravel" />
+      <path value="$PROJECT_DIR$/vendor/league/fractal" />
     </include_path>
   </component>
   <component name="ProjectId" id="1iThgaEA8EK5vq3gR95vWCyFVGf" />
@@ -134,7 +128,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Entities" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Transformers" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -145,15 +139,15 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Models" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Transformers" />
       <recent name="$PROJECT_DIR$/app/Entities" />
       <recent name="$PROJECT_DIR$/app/Http/Controllers" />
       <recent name="$PROJECT_DIR$/app/Services" />
       <recent name="$PROJECT_DIR$/app/Validators" />
-      <recent name="$PROJECT_DIR$/database/seeds" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/Models" />
     </key>
   </component>
   <component name="RunManager" selected="PHPSpec.phpspec.yml">
@@ -177,7 +171,8 @@
       <workItem from="1601937602268" duration="4289000" />
       <workItem from="1602006674265" duration="5228000" />
       <workItem from="1603030946498" duration="7227000" />
-      <workItem from="1603041951655" duration="6594000" />
+      <workItem from="1603041951655" duration="6779000" />
+      <workItem from="1603129836746" duration="2088000" />
     </task>
     <servers />
   </component>
@@ -205,10 +200,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="859" y="381" key="ComposerInitDialogKey/0.23.1440.877@0.23.1440.877" timestamp="1602011949173" />
-    <state x="730" y="194" key="NewPhpClassDialog" timestamp="1603042864622">
+    <state x="730" y="194" key="NewPhpClassDialog" timestamp="1603131095713">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="730" y="194" key="NewPhpClassDialog/0.23.1440.877@0.23.1440.877" timestamp="1603042864622" />
+    <state x="730" y="194" key="NewPhpClassDialog/0.23.1440.877@0.23.1440.877" timestamp="1603131095713" />
     <state x="975" y="356" width="323" height="232" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1602098235709">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

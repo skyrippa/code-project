@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "faab1a426f8eed1ee16ab674cd38b969",
+    "content-hash": "5680dc1b4c989e55343762c3b26b5052",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -722,6 +722,70 @@
                 }
             ],
             "time": "2020-09-13T08:22:35+00:00"
+        },
+        {
+            "name": "league/fractal",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/fractal.git",
+                "reference": "9c9c493edcf0f5438555e5b515a790749a26c807"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/fractal/zipball/9c9c493edcf0f5438555e5b515a790749a26c807",
+                "reference": "9c9c493edcf0f5438555e5b515a790749a26c807",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "doctrine/orm": "^2.5",
+                "illuminate/contracts": "~5.0",
+                "mockery/mockery": "~0.9",
+                "pagerfanta/pagerfanta": "~1.0.0",
+                "phpunit/phpunit": "^4.8.35 || ^7.5",
+                "squizlabs/php_codesniffer": "~1.5|~2.0|~3.4",
+                "zendframework/zend-paginator": "~2.3"
+            },
+            "suggest": {
+                "illuminate/pagination": "The Illuminate Pagination component.",
+                "pagerfanta/pagerfanta": "Pagerfanta Paginator",
+                "zendframework/zend-paginator": "Zend Framework Paginator"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.20.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "League\\Fractal\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Phil Sturgeon",
+                    "email": "me@philsturgeon.uk",
+                    "homepage": "http://philsturgeon.uk/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Handle the output of complex data structures ready for API output.",
+            "homepage": "http://fractal.thephpleague.com/",
+            "keywords": [
+                "api",
+                "json",
+                "league",
+                "rest"
+            ],
+            "time": "2020-09-25T16:41:34+00:00"
         },
         {
             "name": "league/mime-type-detection",
@@ -3965,7 +4029,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "lucadegasperi/oauth2-server-laravel": 20
+        "lucadegasperi/oauth2-server-laravel": 20,
+        "league/fractal": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
